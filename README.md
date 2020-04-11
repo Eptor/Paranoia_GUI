@@ -7,7 +7,11 @@ You can change the salt used by the functions, just use the os module:
 ```
 os.urandom(16)
 ```
-and change the salt value on Defs/crypto_defs.py
+and change the salt value on defs/crypto_defs.py
+
+## Password
+The password that will be encrypting or decrypting the data is a variable in defs/windows.py
+You must change it to whatever you want to use
 
 ## Install
 
@@ -24,7 +28,7 @@ Cryptogrphy module:
 pip install cryptography
 ```
 
-Pyperclip module (only windows for now):
+Pyperclip module:
 
 ```
 pip install pyperclip
